@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Question Answering</title>
+    <style>
+        body {
+            background-color: #101010;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        button {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Your Research Question</h1>
+        <form method="POST">
+            <textarea name="question" rows="5" placeholder="Enter your research question here..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
